@@ -273,19 +273,20 @@
       </div>
     </div>
 
-    <div class="actions">
-      <button class="btn btn-dismiss">
-        Dismiss
-      </button>
-<script src="https://apis.google.com/js/platform.js"></script>
-<div style="display: flex; justify-content: center; margin-bottom: 15px;">
-    <div class="g-ytsubscribe" data-channelid="UCJ6b3VoTHPoUk2VJPw5GBTQ" data-layout="default" data-count="hidden"></div>
-</div>
-      
-      <button class="btn btn-primary" id="verifyBtn">
-        Verify & Subscribe
-      </button>
+    
+    <div class="actions" style="display: flex; align-items: center; justify-content: space-between; gap: 10px; width: 100%;">
+    <!-- This keeps your Dismiss text on the left -->
+    <button class="btn btn-dismiss">Dismiss</button>
+    
+    <!-- This puts the REAL YouTube subscription button on the right, replacing the blue button -->
+    <script src="https://apis.google.com/js/platform.js"></script>
+    <div class="g-ytsubscribe" 
+         data-channelid="UCJ6b3VoTHPoUk2VJPw5GBTQ" 
+         data-layout="default" 
+         data-count="hidden">
     </div>
+    </div>
+    
 
 </div>
     
