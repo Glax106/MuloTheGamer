@@ -282,7 +282,20 @@
         Verify & Subscribe
       </button>
     </div>
+<!-- 1. The Official Google Platform Script -->
+<!-- Paste this engine file at the very bottom of your HTML, right before the closing </body> tag -->
+<script src="https://apis.google.com/js/platform.js"></script>
 
+<!-- 2. The Minimalist Subscribe Button Widget -->
+<!-- Paste this inside your card container layout from 1000149715.jpg, right above your "Dismiss" and "Verify" buttons -->
+<div style="display: flex; justify-content: center; align-items: center; margin-bottom: 20px; width: 100%;">
+    <div class="g-ytsubscribe" 
+         data-channelid="UCJ6b3VoTHPoUk2VJPw5GBTQ" 
+         data-layout="default" 
+         data-count="hidden">
+    </div>
+</div>
+    
   </div>
 
   <script>
@@ -402,6 +415,7 @@
     });
 
   </script>
-
+<script src="https://apis.google.com/js/platform.js"></script>
+  
 </body>
 </html>
