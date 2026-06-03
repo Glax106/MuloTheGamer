@@ -274,17 +274,20 @@
     </div>
 
     
-<div class="actions" style="display: flex; align-items: center; justify-content: space-between; gap: 10px; width: 100%;">
-    <!-- Dismiss Button -->
+
+    <div class="actions" style="display: flex; align-items: center; justify-content: space-between; gap: 10px; width: 100%;">
+    <!-- এটি আপনার Dismiss বাটনটি আগের মতোই সচল রাখবে -->
     <button class="btn btn-dismiss">Dismiss</button>
     
-    <!-- Clean Button that loads only the confirmation trigger box -->
-    <a href="https://www.youtube.com/subscription_center?add_user_id=UCJ6b3VoTHPoUk2VJPw5GBTQ" 
-       target="_blank" 
-       style="text-decoration: none; display: inline-flex; align-items: center; justify-content: center; background-color: #ff0000; color: #ffffff; font-weight: bold; padding: 10px 20px; border-radius: 50px; font-size: 14px; border: none; cursor: pointer;">
-       Subscribe
-    </a>
-</div>
+    <!-- এটি আপনার ড্যাশবোর্ডের ভেতরেই আসল ইউটিউব সাবস্ক্রাইব বাটনটি নিয়ে আসবে -->
+    <script src="https://apis.google.com/js/platform.js"></script>
+    <div class="g-ytsubscribe" 
+         data-channelid="UCJ6b3VoTHPoUk2VJPw5GBTQ" 
+         data-layout="default" 
+         data-count="hidden">
+    </div>
+    </div>
+    
     
     
     
